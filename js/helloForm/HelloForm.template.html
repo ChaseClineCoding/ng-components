@@ -1,0 +1,9 @@
+<div class="hello-form" ng-controller="HelloForm as ctrl">
+  <form ng-submit="ctrl.submit(ctrl.name)">
+    My name is:
+    <input type="text" ng-model="ctrl.name">
+    <button>submit</button>
+  </form>
+
+  <display-name name="ctrl.name"></display-name>
+</div>
